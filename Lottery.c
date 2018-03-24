@@ -12,7 +12,7 @@ void main()
 
   printf("Enter your Lottery Number (0 to end): ");
   scanf("%d", &YourLotteryNo);
-  while (YourLotteryNo != 0)
+  while (YourLotteryNo != 1000)
   {
     won = 0;
     for (i=0;i<N && !won; i++)
