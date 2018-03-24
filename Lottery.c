@@ -2,7 +2,7 @@
 void main()
 {
 
-  int WinLotteryNo[10] = {0, 0, 0, 0, 0, 0, 0,0, 0, 0};
+  int WinLotteryNo[10] = {44, 0, 0, 0, 0, 0, 0,0, 0, 0};
   float WinAmount[10] = {50000, 15000, 10000, 5000, 5000, 5000, 5000, 3000, 3000, 3000};
 
   int N = 10;
@@ -12,7 +12,7 @@ void main()
 
   printf("Enter your Lottery Number (0 to end): ");
   scanf("%d", &YourLotteryNo);
-  while (YourLotteryNo != 0)
+  while (YourLotteryNo != 9)
   {
     won = 0;
     for (i=0;i<N && !won; i++)
